@@ -1,0 +1,102 @@
+{
+    "Servers": {
+        "1": {
+            "Name": "Dev Nbfc",
+            "Group": "Servers",
+            "Host": "dev-nbfc-db.cgkhptdv3xxx.ap-south-1.rds.amazonaws.com",
+            "Port": 5432,
+            "MaintenanceDB": "postgres",
+            "Username": "debiprasad",
+            "SSLMode": "prefer",
+            "SSLCompression": 0,
+            "Timeout": 10,
+            "UseSSHTunnel": 0,
+            "TunnelPort": "22",
+            "TunnelAuthentication": 0
+        },
+        "2": {
+            "Name": "prod Nbfc",
+            "Group": "Servers",
+            "Host": "nbfcprod.cgkhptdv3xxx.ap-south-1.rds.amazonaws.com",
+            "Port": 5432,
+            "MaintenanceDB": "postgres",
+            "Username": "nikhil",
+            "SSLMode": "prefer",
+            "SSLCompression": 0,
+            "Timeout": 10,
+            "UseSSHTunnel": 0,
+            "TunnelPort": "22",
+            "TunnelAuthentication": 0
+        },
+        "3": {
+            "Name": "Dev p2p",
+            "Group": "Servers",
+            "Host": "fp2021devdb-feb-1.cotwvjlct5sm.ap-south-1.rds.amazonaws.com",
+            "Port": 5432,
+            "MaintenanceDB": "postgres",
+            "Username": "debiprasad",
+            "SSLMode": "prefer",
+            "SSLCompression": 0,
+            "Timeout": 10,
+            "UseSSHTunnel": 0,
+            "TunnelPort": "22",
+            "TunnelAuthentication": 0
+        },
+        "4": {
+            "Name": "fpproddb",
+            "Group": "Servers",
+            "Host": "fpproductiondb.cotwvjlct5sm.ap-south-1.rds.amazonaws.com",
+            "Port": 5432,
+            "MaintenanceDB": "postgres",
+            "Username": "nikhil",
+            "SSLMode": "prefer",
+            "SSLCompression": 0,
+            "Timeout": 10,
+            "UseSSHTunnel": 0,
+            "TunnelPort": "22",
+            "TunnelAuthentication": 0
+        },
+        "5": {
+            "Name": "Leo1_Fees_DB",
+            "Group": "Servers",
+            "Host": "dev-nbfc-db.cgkhptdv3xxx.ap-south-1.rds.amazonaws.com",
+            "Port": 5432,
+            "MaintenanceDB": "postgres",
+            "Username": "vivekall",
+            "SSLMode": "prefer",
+            "SSLCompression": 0,
+            "Timeout": 10,
+            "UseSSHTunnel": 0,
+            "TunnelPort": "22",
+            "TunnelAuthentication": 0
+        },
+        "6": {
+            "Name": "prod FEES",
+            "Group": "Servers",
+            "Host": "leo1-fee.cgkhptdv3xxx.ap-south-1.rds.amazonaws.com",
+            "Port": 5432,
+            "MaintenanceDB": "postgres",
+            "Username": "nikhil",
+            "SSLMode": "prefer",
+            "SSLCompression": 0,
+            "Timeout": 10,
+            "UseSSHTunnel": 0,
+            "TunnelPort": "22",
+            "TunnelAuthentication": 0
+        },
+        "7": {
+            "Name": "STAGING1",
+            "Group": "Servers",
+            "Host": "database-1.cgkhptdv3xxx.ap-south-1.rds.amazonaws.com",
+            "Port": 5432,
+            "MaintenanceDB": "postgres",
+            "Username": "debiprasad",
+            "SSLMode": "prefer",
+            "SSLCompression": 0,
+            "Timeout": 10,
+            "UseSSHTunnel": 0,
+            "TunnelPort": "22",
+            "TunnelAuthentication": 0
+        }
+    }
+}
